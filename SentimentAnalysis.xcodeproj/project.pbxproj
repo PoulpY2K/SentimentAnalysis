@@ -11,6 +11,7 @@
 		8CAC98E92B4EDF8E00CEC376 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC98E82B4EDF8E00CEC376 /* ContentView.swift */; };
 		8CAC98EB2B4EDF8F00CEC376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAC98EA2B4EDF8F00CEC376 /* Assets.xcassets */; };
 		8CAC98EE2B4EDF8F00CEC376 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAC98ED2B4EDF8F00CEC376 /* Preview Assets.xcassets */; };
+		8CAC98F52B4EEC5400CEC376 /* SentimentAnalysis.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC98F42B4EEC5400CEC376 /* SentimentAnalysis.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8CAC98E82B4EDF8E00CEC376 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CAC98EA2B4EDF8F00CEC376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CAC98ED2B4EDF8F00CEC376 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CAC98F42B4EEC5400CEC376 /* SentimentAnalysis.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SentimentAnalysis.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				8CAC98E62B4EDF8E00CEC376 /* SentimentAnalysisApp.swift */,
 				8CAC98E82B4EDF8E00CEC376 /* ContentView.swift */,
 				8CAC98EA2B4EDF8F00CEC376 /* Assets.xcassets */,
+				8CAC98F42B4EEC5400CEC376 /* SentimentAnalysis.mlmodel */,
 				8CAC98EC2B4EDF8F00CEC376 /* Preview Content */,
 			);
 			path = SentimentAnalysis;
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAC98F52B4EEC5400CEC376 /* SentimentAnalysis.mlmodel in Sources */,
 				8CAC98E92B4EDF8E00CEC376 /* ContentView.swift in Sources */,
 				8CAC98E72B4EDF8E00CEC376 /* SentimentAnalysisApp.swift in Sources */,
 			);
