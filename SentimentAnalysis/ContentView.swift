@@ -101,7 +101,6 @@ struct ContentView: View {
             let prediction = try model.prediction(text: modelInput)
             modelOutput = prediction.label
             outputSentiment = Sentiment(rawValue: modelOutput)
-            // A vous de travailler la suite
         } catch {
             modelOutput = "Something went wrong"
         }
